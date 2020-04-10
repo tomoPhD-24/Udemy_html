@@ -1,0 +1,60 @@
+/* 余白をリセット */
+@import url(sanitize.css);
+
+body {
+    background-color: #fafafa;
+}
+
+
+/* 見出しの調整 */
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* 本文の調整 */
+.content {
+    background-color: #fff;
+    width: 600px;
+    margin: 10px auto;
+    border: 5px solid #d1d1d1;
+    padding: 30px;
+}
+
+/* メールアドレス/パスワード */
+input {
+    border: none;
+    border-bottom: 1px solid #d1d1d1;
+    font-size: 1.2em;
+    width: 100%;
+    padding: 8px;
+}
+
+/* 登録ボタン */
+button {
+    width: 100%;
+    background-color: #2f96f3;
+    border: none;
+    color: #fff;
+    padding: 30px;
+    border-radius: 3px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .4);
+}
+
+.control {
+    margin-bottom: 3em;
+}
+
+label {
+    display: block;
+    margin-bottom: .5em;
+}
+
+.required {
+    margin-left: .3em;
+    color: #f33;
+    font-size: .9em;
+    padding: 3px;
+    background-color: #fee;
+    font-weight: bold;
+}
